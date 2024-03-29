@@ -197,10 +197,47 @@ a:hover{
 /* Projects Section */
 
 .pro{
-    height: 80vh;
+    height: 60vh;
     width: 100%;
-    background-color: #ffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+.project_ttile{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    font-family: "Teko", sans-serif;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.thumb{
+    background-color: #eaeaea;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 305px;
+    border-radius: 10px;
+}
+
+.thumb:hover{
+    height: 235px;
+    width: 310px;
+    transition:  100ms;
+}
+
+.thumb_img{
+    height: 180px;
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
 
 .pro h4{
     color: royalblue;
@@ -208,100 +245,43 @@ a:hover{
     font-family: "Teko", sans-serif;
 }
 
+
+
 .pro h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
     text-transform: uppercase;
-    margin-bottom: 10px;
 }
 
 .pro p{
     font-family: "Teko", sans-serif;
     color: grey;
-    margin-bottom: 15px;
 }
 
 .pro h5{
     font-family: "Teko", sans-serif;
 }
 
-.project_ttile{
-    width: 100%;
-    height: 10%;
-    display: flex;
+
+
+.project_ttile h4{
+    color: royalblue;
+    text-transform: uppercase;
     font-family: "Teko", sans-serif;
-    justify-content: center;
-    align-items: center;
 }
 
 .projects{
-    height:90%;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
-}
-
-.project_up{
-    width: 65%;
-    height: 50%;
-    display: flex;
-}
-
-.left_up{
-    height: 100%;
-    width: 50%;
-    display: flex;
+    height:100%;
+    width: 80%;
+    align-items: start;
+    justify-content: space-evenly;
     flex-direction: row;
-    align-items: center;
-    padding-right: 30px;
-    justify-content: end;
-}
-
-.right_up{
-    height: 100%;
-    width: 50%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.project_down{
-    width: 65%;
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-}
-
-.left_down{
-    height: 100%;
-    width: 50%;
-    padding-left: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.right_down{
-    height: 100%;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: end;
 }
 
 
 
-.thumb_img{
-    height: 90%;
-    width: 90%;
-    border-radius: 10px;
-    pointer-events: none;
-}
+
 
 
 /* Footer Section */
@@ -311,11 +291,36 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffff;
+}
+
+.contact{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.social img{
+    mix-blend-mode:darken;
+    height: 30px;
+    width: 30px;
+}
+
+.social{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Teko", sans-serif;
+    justify-content: space-evenly;
 }
 
 .copyright p{
     font-size: small;
+    font-family: "Teko", sans-serif;
 }
 
 
@@ -346,6 +351,7 @@ a:hover{
 .head_menu{
     height: 50%;
     width: 80%;
+    padding: 0;
     align-items: center;
     justify-content: center;
 }
@@ -480,7 +486,7 @@ a:hover{
 
 .project_ttile{
     width: 100%;
-    height: 10%;
+    height: 100px;
     display: flex;
     font-family: "Teko", sans-serif;
     justify-content: center;
@@ -491,71 +497,9 @@ a:hover{
     height:90%;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     display: flex;
-}
-
-.project_up{
-    width: 90%;
-    height: 50%;
-    flex-direction: column;
-    display: flex;
-}
-
-.left_up{
-    height: 50%;
-    width: 100%;
-    display: flex;
-    padding: 0;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.right_up{
-    height: 50%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.project_down{
-    width: 90%;
-    height: 50%;
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.left_down{
-    height: 50%;
-    width: 100%;
-    display: flex;
-    padding: 0;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.right_down{
-    height: 50%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-.thumb_img{
-    height: 90%;
-    width: 90%;
-    object-fit: cover;
-    border-radius: 10px;
-    pointer-events: none;
 }
 
 
@@ -571,7 +515,7 @@ a:hover{
 
 .contact{
     height: 70px;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: start;
@@ -592,6 +536,23 @@ a:hover{
 
 .copyright p{
     font-size: small;
+    font-family: "Teko", sans-serif;
+}
+
+.social img{
+    mix-blend-mode:darken;
+    height: 30px;
+    width: 30px;
+}
+
+.social{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Teko", sans-serif;
+    justify-content: space-evenly;
 }
 
 }
