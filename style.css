@@ -41,7 +41,8 @@ body::-webkit-scrollbar {
 }
 
 .header h3{
-    font-family: "Lobster Two", sans-serif;
+    
+    font-family: "Teko", sans-serif;
 }
 
 /* Header Menu */
@@ -143,7 +144,7 @@ a:hover{
 /* About Me Section */
 
 .bio{
-    height: 100vh;
+    height: 500px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -424,7 +425,7 @@ a:hover{
 /* About Me Section */
 
 .bio{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     display: flex;
     padding: 0;
@@ -476,7 +477,7 @@ a:hover{
 /* Projects Section */
 
 .pro{
-    height: 720px;
+    height: 800px;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -501,6 +502,31 @@ a:hover{
     flex-direction: column;
     display: flex;
 }
+
+.thumb{
+    background-color: #eaeaea;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    border-radius: 10px;
+}
+
+.thumb:hover{
+    height: 235px;
+    width: 310px;
+    transition:  100ms;
+}
+
+.thumb_img{
+    height: 210px;
+    width: 99%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
 
 
 /* Footer Section */
